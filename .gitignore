@@ -1,0 +1,21 @@
+# JetBrains IDE settings
+.idea
+
+# the built site; GitHub Pages builds its own
+_site/
+
+# Jekyll's build cache
+.jekyll-cache/
+
+# Jekyll's incremental-build state
+.jekyll-metadata
+
+# Sass's compile cache
+.sass-cache/
+
+# Bundler's lock file; GitHub Pages pins its own gem versions
+Gemfile.lock
+
+# Bundler's local settings and the gems `make install` puts there
+.bundle/
+vendor/

@@ -1,0 +1,27 @@
+---
+layout: default
+title: Phast blog
+---
+<div class="bio">
+  <h1>./about</h1>
+  <p>
+    News and releases from <a href="https://phast.sh">Phast</a>, a dependency manager for PHP.
+  </p>
+  <p>
+    Follow along with the <a href="/feed.xml">RSS feed</a>.
+  </p>
+</div>
+
+<section>
+  <h2>Latest Posts</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">
+        <span>{{ post.title }}</span>
+        <span class="post-date">{{ post.date | date: "%b %Y" }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

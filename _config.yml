@@ -1,0 +1,15 @@
+title: Phast blog
+description: News and releases from Phast, a dependency manager for PHP.
+url: "https://blog.phast.sh"
+permalink: /posts/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
